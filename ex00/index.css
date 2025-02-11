@@ -18,7 +18,7 @@ a {
 }
 
 .container {
-	background: #383A45;
+	background: goldenrod;
 	margin: 1rem; 
 	padding: 1rem;
 	border-radius: .4rem;
@@ -27,17 +27,19 @@ a {
 
 p.title {
 	color: white;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	line-height: 119.7%;
+	max-width: 400px;
 }
 
 p.description {
 	color: black;
-	font-size: .8rem;
+	font-size: .9rem;
+	max-width: 300px;
 }
 
 .link {
-	width: .8rem;	
+	width: .10rem;	
 }
 
 @media only screen and (min-width: 550px) {
@@ -46,7 +48,7 @@ p.description {
 		max-width: 500px;
 	}
 	.photo {
-		width: 9rem;
+		width: 8rem;
 		margin-right: 1rem;
 	}
 
