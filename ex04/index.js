@@ -3,7 +3,7 @@ const menuBtn = document.querySelector('.menu-btn')
       exitBtn = document.querySelector('.exit-btn');
 
 menuBtn.addEventListener('click', () => {
-    menu.style.transform = 'translateX(70%)';
+    menu.style.transform = 'translateX(0%)';
 })
 
 exitBtn.addEventListener('click', () => {
